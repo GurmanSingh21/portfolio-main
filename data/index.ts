@@ -28,7 +28,7 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
-  {
+  /*{
     id: 3,
     title: "My tech stack",
     description: "I constantly try to improve",
@@ -37,12 +37,12 @@ export const gridItems = [
     titleClassName: "justify-center",
     img: "",
     spareImg: "",
-  },
+  },*/
   {
     id: 4,
     title: "Tech enthusiast with a passion for development.",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "/grid.svg",
@@ -53,7 +53,7 @@ export const gridItems = [
     id: 5,
     title: "Currently building a JS Animation library",
     description: "The Inside Scoop",
-    className: "md:col-span-3 md:row-span-2",
+    className: "md:col-span-3 md:row-span-1",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.svg",
@@ -105,6 +105,75 @@ export const projects = [
     link: "/ui.apple.com",
   },
 ];
+
+export const techStack = [
+  {
+    id: 1,
+    name: "HTML",
+    img: "/html-1.svg",
+  },
+  {
+    id: 2,
+    name: "CSS",
+    img: "/css-3.svg",
+  },
+  {
+    id: 3,
+    name: "JavaScript",
+    img: "/logo-javascript.svg",
+  },
+  {
+    id: 4,
+    name: "ReactJS",
+    img: "/react-2.svg",
+    title: "ReactJS",
+  },
+  {
+    id: 5,
+    name: "Native",
+    img: "/react-native-1.svg",
+  },
+  {
+    id: 6,
+    name: "tailwind",
+    img: "/tailwind-css-2.svg",
+  },
+  {
+    id: 7,
+    name: "typescrip",
+    img: "/typescript.svg",
+  },
+  {
+    id: 8,
+    name: "NextJS",
+    img: "/NextJs-Icon.svg",
+  },
+  {
+    id: 9,
+    name: "node",
+    img: "/nodejs-2.svg",
+  },
+  {
+    id: 10,
+    name: "mongo",
+    img: "/mongodb-icon-1.svg",
+  },
+  {
+    id: 11,
+    name: "django",
+    img: "/django.svg",
+  },
+  {
+    id: 12,
+    name: "aws",
+    img: "/aws-2.svg",
+  },
+  {
+    id: 13,
+    name: "kali",
+    img:"kali-1.svg",
+  }
+]
 
 export const testimonials = [
   {

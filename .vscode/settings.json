@@ -10,5 +10,9 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
-  "editor.wordWrap": "on"
+  "editor.wordWrap": "on",
+  "workbench.colorTheme": "Abyss",
+  "workbench.preferredDarkColorTheme": "Abyss",
+  "workbench.preferredHighContrastColorTheme": "Default Dark+",
+  "workbench.iconTheme": "vs-seti"
 }
